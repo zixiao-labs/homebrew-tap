@@ -1,9 +1,9 @@
 cask "logos-editor" do
-  version "2026.5.2"
+  version "2026.5.3"
 
   on_arm do
-    url "https://github.com/Zixiao-System/logos/releases/download/v#{version}/Logos-2026.5.2-arm64-mac.zip"
-    sha256 "b33b059874476bf0b6977dd5a54cdd8eb8ba61686a85bb3a85c9946051b00e1b"
+    url "https://github.com/Zixiao-System/logos/releases/download/v#{version}/Logos-2026.5.3-arm64-mac.zip"
+    sha256 "a6c215bc23a5fe1ef7f39b6dacb70fef00797a246006a04d75e5a0b15053044f"
   end
 
   on_intel do
