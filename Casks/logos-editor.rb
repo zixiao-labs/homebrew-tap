@@ -1,19 +1,19 @@
 cask "logos-editor" do
-  version "2026.5.5"
+  version "2026.5.6"
 
   on_arm do
-    url "https://github.com/Zixiao-System/logos/releases/download/v#{version}/Logos-2026.5.5-arm64-mac.zip"
-    sha256 "eb283835341f527e5a2e4731e9d71f9c9c3baa796e2a8a6bbd4b31a59ff2ed71"
+    url "https://github.com/zixiao-labs/logos/releases/download/v#{version}/Logos-2026.5.6-arm64-mac.zip"
+    sha256 "a48ab987fb3220dd392b5a5b42fdf5b7a39cb7a0f7f350816a45671d8a97fbf3"
   end
 
   on_intel do
-    url "https://github.com/Zixiao-System/logos/releases/download/v#{version}/"
+    url "https://github.com/zixiao-labs/logos/releases/download/v#{version}/"
     sha256 ""
   end
 
   name "Logos"
   desc "A Modern, Lightweight Code Editor"
-  homepage "https://github.com/Zixiao-System/logos"
+  homepage "https://github.com/zixiao-labs/logos"
 
   livecheck do
     url :url
